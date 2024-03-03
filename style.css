@@ -115,8 +115,17 @@ p {
   color: blue;
 }
 
-@media (max-width 576) {
+@media (max-width: 576px) {
   img {
     display: none;
+  }
+  h1,
+  h2,
+  p {
+    text-align: center;
+  }
+  .primary-link {
+    display: block;
+    text-align: center;
   }
 }
